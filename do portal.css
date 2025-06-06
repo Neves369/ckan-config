@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/*
+.ocultar{
+  display: none!important;
+}*/
+
+.media-image img{
+max-height:200px;
+}
+
+[role=main], .main  {
+	min-height: 150px;
+ }
+
+.media-overlay .media-heading {
+	display: none;
+ }
+
+.masthead .container  {
+	padding-top: 10px;
+	padding-bottom: 10px;
+ }
+
+.nav-pills>li>a  {
+	border-radius: 0px;
+ }
+
+.nav-pills>li  {
+	padding-right: 10px;
+ }
+
+.account-masthead .account .notifications a span.badge  {
+	background-color: #333;
+	color: #fff;
+ }
+
+.context-info .description, .media-description, .media-heading {
+	word-wrap: break-word!important;
+	word-break: break-word!important;
+ }
+
+*  {
+	font-family: 'Open Sans', sans-serif;
+    line-height: 1.8;
+ }
+
+.wrapper,
+.box  {
+	box-shadow: rgb(0 0 0 / 35%) 0px 0px 15px;
+ }
+
+.account-masthead .account ul li  {
+	border-left: none;
+ }
+
+.masthead,
+.site-footer,
+.site-footer small,
+.homepage .module-search .module-content  {
+	background-image: linear-gradient(120deg, #0f990e 0%, #0f990e 100%);
+ }
+
+.main,
+.hero,
+html,
+body  {
+	background: #fff;
+ }
+
+.account-masthead  {
+	background: #ffffff;
+ }
+
+.account-masthead .account ul li a:hover  {
+	color: #333;
+	background-color: #eee;
+ }
+
+.account-masthead .account ul li a span.username,
+.account-masthead .account ul li a span.text,
+.homepage .module-search .tags h3  {
+	color: #333;
+ }
+
+.homepage .module-search .tags  {
+	background-color: #eee;
+ }
+
+.account-masthead .account ul li a  {
+	color: #333;
+ }
+
+.homepage .module-search  {
+	padding: 0px;
+	color: #fff;
+	background: #fff;
+ }
+
+.btn-primary:active:hover,
+.btn-primary.active:hover,
+.open>.dropdown-toggle.btn-primary:hover,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.open>.dropdown-toggle.btn-primary:focus,
+.btn-primary:active.focus,
+.btn-primary.active.focus,
+.open>.dropdown-toggle.btn-primary.focus,
+.btn-primary  , .btn-primary:hover{
+	color: #fff;
+	background-color: #0f990e;
+	border: none;
+ }
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary.active,
+.open>.dropdown-toggle.btn-primary,
+.btn-primary:focus,
+.btn-primary.focus  {
+	background-color: #192a4b;
+	border: none;
+ }
+
+.lang-select label,
+.lang-select select,
+.lang-select .lang-container  {
+	background-color: transparent;
+ }
+
+a  {
+	color: #2d5299;
+ }
+
+.masthead .navigation .nav-pills li a:hover,
+.masthead .navigation .nav-pills li a:focus,
+.masthead .navigation .nav-pills li.active a  {
+	background-color: transparent;
+	border-bottom: solid 1px;
+ }
+
+.masthead .nav>li>a,
+.masthead .nav>li>a:focus,
+.masthead .nav>li>a:hover,
+.masthead .nav>.active>a,
+.masthead .nav>.active>a:hover,
+.masthead .nav>.active>a:focus  {
+	background-color: transparent;
+	border-bottom: solid 1px transparent;
+ }
+
+@media (max-width: 767px) {
+ .site-footer, .site-footer label, .site-footer small  {
+	text-align: center;
+ }
+
+.attribution .ckan-footer-logo  {
+	margin-left: auto;
+	margin-right: auto;
+ }
+
+.field-lang-select {
+	text-align: center;
+ }
+}
+
+.module-content p {
+    font-size: 16px;
+}
+
+
+    #footer-logos {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+        width: -moz-fit-content
+    }
+
+    #footer-logos-images {
+        margin-top: 30px;
+        width: 140px;
+        min-width: 120px;
+        display: inline-block;
+        padding: 0px 10px;
+    }
+
+    .brasao{
+        width: 100%;
+    }
+
+
+.media-grid .media-item:nth-child(4) {
+  display: none;
+}
+
+.media-grid .media-item {
+  width: 30%;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 767px) {
+  .media-grid .media-item {
+    width: 90%;
+    display: block;
+    margin-bottom: 1rem;
+  }
+}
+.site-footer a{
+color: #fff
+}
+.site-footer p , .site-footer label{
+color: #fff
+}
+a{
+ color: #0f990e;
+}
+.btn-primary:active:hover, .btn-primary.active:hover, .open>.dropdown-toggle.btn-primary:hover, .btn-primary:active:focus, .btn-primary.active:focus, .open>.dropdown-toggle.btn-primary:focus, .btn-primary:active.focus, .btn-primary.active.focus, .open>.dropdown-toggle.btn-primary.focus, .btn-primary, .btn-primary:hover{
+
+    background-color: #055d05;
+
+}
+
+.toolbar .breadcrumb a{
+    color: #0f990e!important;
+}
+#field-ckan-site-custom-css, #field-ckan-site-intro-text, #field-ckan-site-about{
+height: 600px;
+}
+#qrcode{
+display: inline-block;
+    width: 19%;
+}
+#descricao{
+display: inline-block;
+    width: 80%;
+}
+
+
+
+
+/* Aumentar tamanho da fonte */
+.ckan-font-larger,
+.ckan-font-larger * {
+  font-size: 120%;
+}
+
+/* Diminuir tamanho da fonte */
+.ckan-font-smaller,
+.ckan-font-smaller * {
+  font-size: 80%;
+}
+
+/* Modo de alto contraste */
+.ckan-high-contrast,
+.ckan-high-contrast * {
+
+  filter: invert(100%) hue-rotate(180deg);
+}
+
+/* Modo noturno */
+.ckan-night-mode,
+.ckan-night-mode * {
+  background-color: #222;
+  color: #fff;
+background-image: linear-gradient(120deg, #111 0%, #111 100%);
+
+}
+
+/* Modo de daltonismo */
+.ckan-color-blindness-mode,
+.ckan-color-blindness-mode * {
+  filter: grayscale(100%);
+}
+
+/* Estilo de botões */
+.ckan-accessibility-button {
+  display: block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: #000;
+  transition: all 0.2s ease-in-out;
+}
+
+.ckan-accessibility-button:hover,
+.ckan-accessibility-button:focus {
+  background-color: #555;
+  color: #fff;
+}
+
+/* Estilo de lista de botões */
+.ckan-accessibility-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ckan-accessibility-list li {
+  margin-bottom: 10px;
+}
+
+/* Estilo de ícone de botão */
+.ckan-accessibility-button i {
+  font-size: 20px;
+}
+
+/* Estilo de rótulo de botão */
+.ckan-accessibility-button span {
+  display: none;
+}
+.hidden {
+  display: none;
+}
+
+
+
+
+.accessibility-options {
+  position: fixed;
+  top: 50px;
+  left: 50px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 9999;
+}
+
+.accessibility-options ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.accessibility-options li {
+  margin-bottom: 10px;
+}
+
+.accessibility-options button {
+  background-color: #337ab7;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.accessibility-options button:hover {
+  background-color: #2e6da4;
+}
+
+.hidden {
+  display: none;
+}
