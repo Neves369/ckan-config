@@ -84,6 +84,15 @@ body  {
   box-shadow: inset 0px 0px 2px 0px rgba(0, 0, 0, 0.7);
 }
 
+.masthead .main-navbar ul li:hover a, .masthead .main-navbar ul li:focus a, .masthead .main-navbar ul li.active a
+{
+    border-radius: 0.3rem;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom: #ffffff 1px solid;
+    
+}
+
 /* ------------------------------------------------------------------------------- */
 
 .media-image img{
