@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+/* ========================================================================== */
+/* =========================== ESTILOS GERAIS ============================= */
+/* ========================================================================== */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 
 *{
 	font-family: 'Open Sans', sans-serif;
@@ -12,9 +16,55 @@ body  {
 	background: #fff;
  }
 
-/* ========================================================================
-    head de conta e login
-   ======================================================================== */
+a  {
+	color: #2d5299;
+ }
+
+.wrapper,
+.box  {
+	box-shadow: rgb(0 0 0 / 35%) 0px 0px 15px;
+ }
+
+.btn-primary:active:hover,
+.btn-primary.active:hover,
+.open>.dropdown-toggle.btn-primary:hover,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.open>.dropdown-toggle.btn-primary:focus,
+.btn-primary:active.focus,
+.btn-primary.active.focus,
+.open>.dropdown-toggle.btn-primary.focus,
+.btn-primary  , .btn-primary:hover{
+	color: #fff;
+	background-color: #0f990e;
+	border: none;
+ }
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary.active,
+.open>.dropdown-toggle.btn-primary,
+.btn-primary:focus,
+.btn-primary.focus  {
+	background-color: #192a4b;
+	border: none;
+ }
+
+.lang-select label,
+.lang-select select,
+.lang-select .lang-container  {
+	background-color: transparent;
+ }
+
+.hidden {
+  display: none;
+}
+
+/* ========================================================================== */
+/* ============================== HEADER ================================== */
+/* ========================================================================== */
+
+/* head de conta e login */
 .account-masthead {
     background-image: linear-gradient(120deg, #0f990e 0%, #075307 100%);
 }
@@ -60,9 +110,16 @@ body  {
     color:  #fff;
 }
 
-/* ========================================================================
-   The main masthead bar that contains the site logo, nav links, and search
-   ======================================================================== */
+.account-masthead .account .notifications a span.badge  {
+	background-color: #333;
+	color: #fff;
+ }
+
+.account-masthead .account ul li  {
+	border-left: none;
+ }
+
+/* The main masthead bar that contains the site logo, nav links, and search */
 .masthead {
     background-image: linear-gradient(120deg, #0f990e 0%, #075307 100%);
 }
@@ -93,93 +150,12 @@ body  {
     
 }
 
-/* ------------------------------------------------------------------------------- */
-
-.media-image img{
-    max-height:200px;
-}
-
-[role=main], .main  {
-	min-height: 150px;
- }
-
-.media-overlay .media-heading {
-	display: none;
- }
-
-
 .nav-pills>li>a  {
 	border-radius: 0px;
  }
 
 .nav-pills>li  {
 	padding-right: 10px;
- }
-
-.account-masthead .account .notifications a span.badge  {
-	background-color: #333;
-	color: #fff;
- }
-
-.context-info .description, .media-description, .media-heading {
-	word-wrap: break-word!important;
-	word-break: break-word!important;
- }
-
-.wrapper,
-.box  {
-	box-shadow: rgb(0 0 0 / 35%) 0px 0px 15px;
- }
-
-.account-masthead .account ul li  {
-	border-left: none;
- }
-
-.site-footer,
-.site-footer small,
-.homepage .module-search .module-content  {
-	background-image: linear-gradient(120deg, #0f990e 0%, #075307 100%);
- }
-
-.homepage .module-search  {
-	padding: 0px;
-	color: #fff;
-	background: #fff;
- }
-
-.btn-primary:active:hover,
-.btn-primary.active:hover,
-.open>.dropdown-toggle.btn-primary:hover,
-.btn-primary:active:focus,
-.btn-primary.active:focus,
-.open>.dropdown-toggle.btn-primary:focus,
-.btn-primary:active.focus,
-.btn-primary.active.focus,
-.open>.dropdown-toggle.btn-primary.focus,
-.btn-primary  , .btn-primary:hover{
-	color: #fff;
-	background-color: #0f990e;
-	border: none;
- }
-
-.btn-primary:hover,
-.btn-primary:active,
-.btn-primary.active,
-.open>.dropdown-toggle.btn-primary,
-.btn-primary:focus,
-.btn-primary.focus  {
-	background-color: #192a4b;
-	border: none;
- }
-
-.lang-select label,
-.lang-select select,
-.lang-select .lang-container  {
-	background-color: transparent;
- }
-
-a  {
-	color: #2d5299;
  }
 
 .masthead .navigation .nav-pills li a:hover,
@@ -199,46 +175,30 @@ a  {
 	border-bottom: solid 1px transparent;
  }
 
-@media (max-width: 767px) {
- .site-footer, .site-footer label, .site-footer small  {
-	text-align: center;
- }
+/* ========================================================================== */
+/* ============================== CONTENT ================================= */
+/* ========================================================================== */
 
-.attribution .ckan-footer-logo  {
-	margin-left: auto;
-	margin-right: auto;
- }
-
-.field-lang-select {
-	text-align: center;
- }
+.media-image img{
+    max-height:200px;
 }
+
+[role=main], .main  {
+	min-height: 150px;
+ }
+
+.media-overlay .media-heading {
+	display: none;
+ }
+
+.context-info .description, .media-description, .media-heading {
+	word-wrap: break-word!important;
+	word-break: break-word!important;
+ }
 
 .module-content p {
     font-size: 16px;
 }
-
-
-    #footer-logos {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: fit-content;
-        width: -moz-fit-content
-    }
-
-    #footer-logos-images {
-        margin-top: 30px;
-        width: 140px;
-        min-width: 120px;
-        display: inline-block;
-        padding: 0px 10px;
-    }
-
-    .brasao{
-        width: 100%;
-    }
-
 
 .media-grid .media-item:nth-child(4) {
   display: none;
@@ -247,28 +207,6 @@ a  {
 .media-grid .media-item {
   width: 30%;
   box-sizing: border-box;
-}
-
-@media screen and (max-width: 767px) {
-  .media-grid .media-item {
-    width: 90%;
-    display: block;
-    margin-bottom: 1rem;
-  }
-}
-.site-footer a{
-color: #fff
-}
-.site-footer p , .site-footer label{
-color: #fff
-}
-a{
- color: #0f990e;
-}
-.btn-primary:active:hover, .btn-primary.active:hover, .open>.dropdown-toggle.btn-primary:hover, .btn-primary:active:focus, .btn-primary.active:focus, .open>.dropdown-toggle.btn-primary:focus, .btn-primary:active.focus, .btn-primary.active.focus, .open>.dropdown-toggle.btn-primary.focus, .btn-primary, .btn-primary:hover{
-
-    background-color: #055d05;
-
 }
 
 .toolbar .breadcrumb a{
@@ -286,8 +224,9 @@ display: inline-block;
     width: 80%;
 }
 
-
-
+/* ========================================================================== */
+/* ============================ ACESSIBILIDADE ============================ */
+/* ========================================================================== */
 
 /* Aumentar tamanho da fonte */
 .ckan-font-larger,
@@ -364,12 +303,6 @@ background-image: linear-gradient(120deg, #111 0%, #111 100%);
 .ckan-accessibility-button span {
   display: none;
 }
-.hidden {
-  display: none;
-}
-
-
-
 
 .accessibility-options {
   position: fixed;
@@ -406,6 +339,66 @@ background-image: linear-gradient(120deg, #111 0%, #111 100%);
   background-color: #2e6da4;
 }
 
-.hidden {
-  display: none;
+/* ========================================================================== */
+/* ============================ MEDIA QUERIES ============================= */
+/* ========================================================================== */
+
+@media (max-width: 767px) {
+ .site-footer, .site-footer label, .site-footer small  {
+	text-align: center;
+ }
+
+.attribution .ckan-footer-logo  {
+	margin-left: auto;
+	margin-right: auto;
+ }
+
+.field-lang-select {
+	text-align: center;
+ }
+
+  .media-grid .media-item {
+    width: 90%;
+    display: block;
+    margin-bottom: 1rem;
+  }
 }
+
+/* ========================================================================== */
+/* ============================== FOOTER ================================== */
+/* ========================================================================== */
+
+.site-footer,
+.site-footer small,
+.homepage .module-search .module-content  {
+	background-image: linear-gradient(120deg, #0f990e 0%, #075307 100%);
+ }
+
+    #footer-logos {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+        width: -moz-fit-content
+    }
+
+    #footer-logos-images {
+        margin-top: 30px;
+        width: 140px;
+        min-width: 120px;
+        display: inline-block;
+        padding: 0px 10px;
+    }
+
+    .brasao{
+        width: 100%;
+    }
+
+.site-footer a{
+color: #fff
+}
+.site-footer p , .site-footer label{
+color: #fff
+}
+
+
