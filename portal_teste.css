@@ -241,6 +241,10 @@ display: inline-block;
     width: 80%;
 }
 
+ .tags h3 {
+    color: #fff;
+}
+
 .img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img
  {
     display: block;
@@ -432,5 +436,4 @@ color: #fff
 .site-footer p , .site-footer label{
 color: #fff
 }
-
 
